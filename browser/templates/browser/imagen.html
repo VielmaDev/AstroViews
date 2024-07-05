@@ -1,0 +1,19 @@
+{% extends "browser/base.html" %}
+
+{% load static %}
+
+{% load widget_tweaks %} <!--Biblioteca django-->
+
+{% block content %}
+
+<!--Head-->
+<title>Imagen astronómica de la Nasa</title>
+
+<!--Heading-->
+<section>
+    {% for q in query %}
+        <label>"{{q.title}}"</label>
+    {% endfor %}
+
+</section>
+{% endblock %}

@@ -1,0 +1,104 @@
+
+body{
+    background: linear-gradient(rgba(14, 6, 4, 0.58), rgba(14, 6, 4, 0.58)), url("../img/fondo.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+#logo{
+    width: 400px;
+    height: 150px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+#browser{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 1.1em;
+    color:rgb(252, 252, 252);
+
+    background: linear-gradient(rgba(1, 51, 75, 0.60), rgba(5, 135, 139, 0.20));
+    border-radius: 10px;
+    width: 580px;
+    height: 70px;
+    padding-top: 9px;
+    padding-left:25px;
+    padding-right: 25px;
+
+    top: 27%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.label {
+    padding-right: 12px;
+}
+
+.date{
+    width: 220px;
+}
+
+.container-fluid{
+    text-align: center;
+    align-content: center;
+}   
+ 
+input{
+    width: 230px;
+    height: 33px;
+}
+
+h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color:rgb(252, 252, 252);
+    padding-bottom: 200px;
+   
+    left:50%;
+    position: absolute;
+    transform: translate(-50%, -16%);
+}
+
+.clearfix img{
+    padding-right: 12px;
+    width: 450px;
+    height: 300px;
+}
+
+#cards{
+    top: 34%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, 15%);
+}
+
+p{
+    color:rgb(252, 252, 252);
+    text-align: justify;   
+    padding-left: 12px;
+}
+
+#copyright{
+    text-align: end;
+}
+
+footer{
+    top: 80%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, 100%);
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:1.0em;
+    color: rgb(252, 252, 252);
+}
+
+#logonasa{
+    width: 70px;
+    height: 70px;
+}
+
+

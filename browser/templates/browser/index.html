@@ -1,0 +1,49 @@
+{% extends "browser/base.html" %}
+
+{% load static %}
+
+{% load widget_tweaks %} <!--Biblioteca django-->
+
+{% block content %}
+
+<!--Head-->
+<title>Index</title>
+
+<!--Heading-->
+<section>
+  <header>
+      <thead>
+          <div class="container-fluid my-4">
+            <img src="{% static 'img/logo.jpg' %}" id="logo" alt="AstroView">
+           
+          </div>
+      </thead>
+  </header>
+</section>
+
+<section>
+    <header>
+        <thead>
+            <div class="container-fluid my-4" id="browser">
+              {% csrf_token %}   
+              <label class="label">Imagen del día:</label>     
+              <input class="date" type="date" autofocus required>  
+              <button type="submit" class="btn btn-outline-info">Buscar</button>   
+            </div>
+        </thead>
+    </header>
+</section>
+
+<section>
+  <div class="clearfix" id="cards">
+    <h4>{{today.title}}</h4>
+    <img src="{% static 'img/imagen.jpg' %}"  class="col-md-8 float-md-start mb-3 ms-md-3" alt="{{today.title}}">
+    <p class="col-md-12">
+      {{today.explanation}}
+    </p>
+    <p class="col-md-12" id="copyright">
+      Autor(s):&nbsp;{{today.copyright}}&nbsp;/&nbsp; {{today.date}}
+    </p>
+  </div>
+</section>
+{% endblock %}
