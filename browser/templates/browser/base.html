@@ -19,28 +19,42 @@
 </head>
 
 <body>
-    <!--Heading-->
-        
-        {% block content %}
+    <div class="container-fluid my-3" id="logo">
+        <figure>
+            <img src="{% static 'img/logo.jpg' %}" id="logo" alt="AstroView"> 
+        </figure>          
+    </div>
 
-         <!-- Contenido cambiante -->
     
-        {% endblock %}
-          
-    <!-- Footer -->
-    <footer>
-        <div class="container-fluid my-5">
-            <div>
-                <img src="{% static 'img/nasalogo.png' %}" id="logonasa" alt="Nasa">
-            </div>
-            <div>
-                <label>© 2024 | VielmaDev Desing</label>
-            </div>
+    <div class="container-fluid my-3" id="browser">
+        {% csrf_token %}   
+        <label class="label">Imagen del día:</label>     
+        <input class="date" type="date" autofocus required>  
+        <button type="submit" class="btn btn-outline-info">Buscar</button>   
+    </div>
+                 
+<!--Heading-->
 
-            <div>
-                <label>Todos los derechos reservados | Politica de privacidad | Aviso legal</label>
-            </div>
+    {% block content %}
+        <div class="container my-1">
+        
+            <!-- Contenido cambiante -->
+
         </div>
-    </footer>     
+    {% endblock %}
+          
+<!-- Footer -->
+   <footer>
+        <div class="container my-3">
+            <img src="{% static 'img/nasalogo.png' %}" id="logonasa" alt="Nasa">
+        </div>
+
+        <div class="container my-2">
+            <label>© 2024 | VielmaDev Desing</label>
+        </div>
+        <div class="container my-1">
+            <label>Todos los derechos reservados | Politica de privacidad | Aviso legal</label>
+        </div>
+    </footer>
 </body>
 </html>

@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django.urls import path
-from .views import get_imagen
+from .views import today
 
 urlpatterns = [
-    path('', get_imagen, name='get_imagen'),
+    path('', today, name='today'),
 ]

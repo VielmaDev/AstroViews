@@ -7,98 +7,110 @@ body{
 }
 
 #logo{
-    width: 400px;
-    height: 150px;
-    padding-bottom: 20px;
+    width: 300px;
+    height: 130px;
     border-radius: 10px;
+    text-align: center;
 }
 
 #browser{
+    background: linear-gradient(rgba(92, 70, 99, 0.6), rgba(37, 1, 41, 0.6));
+    border-radius: 10px;
+    width: 505px;
+    height: 70px;
+
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     font-size: 1.1em;
     color:rgb(252, 252, 252);
+    align-content: center;
 
-    background: linear-gradient(rgba(1, 51, 75, 0.60), rgba(5, 135, 139, 0.20));
-    border-radius: 10px;
-    width: 580px;
-    height: 70px;
-    padding-top: 9px;
-    padding-left:25px;
-    padding-right: 25px;
-
-    top: 27%;
-    left: 50%;
-    position: absolute;
-    transform: translate(-50%, -50%);
+    position: relative;
+    left: 0%;
+    top: 8%;
+    transform: translate(4%, -20%);
 }
 
-.label {
-    padding-right: 12px;
+.label{
+    margin-right: 5px;
 }
 
 .date{
-    width: 220px;
+    width: 215px;
+    height: 35px;
+    padding-left: 10px;
 }
 
-.container-fluid{
-    text-align: center;
-    align-content: center;
-}   
- 
-input{
-    width: 230px;
-    height: 33px;
-}
-
-h4{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-    color:rgb(252, 252, 252);
-    padding-bottom: 200px;
-   
-    left:50%;
-    position: absolute;
-    transform: translate(-50%, -16%);
-}
-
-.clearfix img{
-    padding-right: 12px;
-    width: 450px;
-    height: 300px;
+.btn{
+    margin-left: 5px;
 }
 
 #cards{
-    top: 34%;
-    left: 50%;
-    position: absolute;
-    transform: translate(-50%, 15%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-p{
+.clearfix h4{
+    font-weight: bold;
     color:rgb(252, 252, 252);
-    text-align: justify;   
-    padding-left: 12px;
+    width:500px;
+    padding-top: 30px;
+    padding-bottom: 4px;
+    position: relative;
+    left: 49%;
+    top: 24%;
+    transform: translate(-39%, 18%);
+
+}
+
+.clearfix img{
+    width: 430px;
+    height: 300px;
+    position: relative;
+    left: 30%;
+    top: 15%;
+    transform: translate(-21%, 9%);
+}
+
+.clearfix p{
+    color:rgb(252, 252, 252);
+    text-align: justify;
+    padding-left: 10px;
+    position: relative;
+    left: 47%;
+    top: 15%;
+    transform: translate(-45%, 9%);
 }
 
 #copyright{
     text-align: end;
+    position: relative;
+    left: 35%;
+    top: 10%;
+    transform: translate(-50%, 190%);
 }
 
-footer{
-    top: 80%;
-    left: 50%;
-    position: absolute;
-    transform: translate(-50%, 100%);
 
+footer{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size:1.0em;
     color: rgb(252, 252, 252);
+    text-align: center;
+    padding-bottom: 12px;
+    position: relative;
+    top: 17%;
+    left: 0%;
+    transform: translate(3%, 18%);
 }
 
 #logonasa{
     width: 70px;
     height: 70px;
 }
+
+
+
+
+
+
 
 
