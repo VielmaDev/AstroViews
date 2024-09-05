@@ -4,21 +4,20 @@
 
 {% load widget_tweaks %} <!--Biblioteca django-->
 
-{% block content %}
 
-<!--Head-->
 <title>Index</title>
-<!--Heading-->
-<section>
-  <div class="clearfix my-1" id="cards">
-    <h4 class="col-md-12">{{today.title}}</h4>
-      <img src="{{today.url}}"  class="col-md-6 float-md-start mb-1 ms-md-3" alt="{{today.title}}">
-        <p class="col-md-6">
-          {{today.explanation}}
-        </p>
-        <p class="col-md-6" id="copyright">
-          Autor(s):&nbsp;{{today.copyright}}&nbsp;/&nbsp; {{today.date}}
-        </p>
-  </div>
-</section>
+
+{% block content %}
+  <section>
+    <div class="clearfix my-1" id="cards">
+      <h4 class="col-md-12">{{query.title}}</h4>
+        <img src="{{query.url}}"  class="col-md-10 float-md-start mb-1 ms-md-3" alt="{{query.title}}">
+          <p class="col-md-6">
+            {{query.explanation}}
+          </p>
+          <p class="col-md-5" id="copyright">
+            Autor(es):&nbsp;{{query.copyright}}&nbsp;/&nbsp;{{query.date}}
+          </p>
+    </div>
+  </section>
 {% endblock %}

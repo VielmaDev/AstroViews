@@ -18,21 +18,28 @@
 
 </head>
 
+<!--Body-->
+
 <body>
     <div class="container-fluid my-3" id="logo">
         <figure>
-            <img src="{% static 'img/logo.jpg' %}" id="logo" alt="AstroView"> 
+            <a href="{% url 'today' %}"><img src="{% static 'img/logo.jpg' %}" id="logo" alt="AstroViews"></a>
         </figure>          
     </div>
 
-    
-    <div class="container-fluid my-3" id="browser">
-        {% csrf_token %}   
-        <label class="label">Imagen del día:</label>     
-        <input class="date" type="date" autofocus required>  
-        <button type="submit" class="btn btn-outline-info">Buscar</button>   
-    </div>
-                 
+    <nav>
+        <div class="search-bar">
+            <form action="browser_set" method="get" autocomplete="off">
+                {% csrf_token %}
+                <div class="container-fluid my-3" id="browser">
+                    <label class="label">Seleccione una fecha:</label>
+                    <input class="date" type="date" name="date" autofocus required>
+                    <button type="submit" class="btn btn-outline-info">Buscar</button>   
+                </div>
+            </form>
+        </div>
+      </nav>
+          
 <!--Heading-->
 
     {% block content %}
@@ -50,7 +57,7 @@
         </div>
 
         <div class="container my-2">
-            <label>© 2024 | VielmaDev Desing</label>
+            <label>AstrosView ©2024 | VielmaDev Desing</label>
         </div>
         <div class="container my-1">
             <label>Todos los derechos reservados | Politica de privacidad | Aviso legal</label>

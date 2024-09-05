@@ -38,9 +38,11 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    #librerias
     'crispy_bootstrap4',
     'widget_tweaks',
-    
+
+    #app
     'browser',
 ]
 
