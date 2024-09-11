@@ -14,7 +14,6 @@
   <div class="container">
     <p>la Web permite explorar la galería de imagenes que ofrece la API (APOD) de la NASA</p>
     <p>Cuenta con un buscador para realizar consulta por fecha y en su página principal se muestra la imagen del día</p>
-    <cite>Actualmente se encuentra en su últimos detalles de construcción</cite>
   </div>
 </article>
 
@@ -23,7 +22,11 @@
   <p>En su estructuración se implemento el uso de CSS3 y Bootstrap para hacerla Response</p>
 </div>
 
-<div>
+<div class="container">
+    <cite>Actualmente se encuentra en su últimos detalles de construcción</cite>
+</div>
+
+<div class="container">
   <cite>Para arrancar el servidor desde VSC se debe ingresar a la ip: 127.0.0.1:8000</cite>
 </div>
 
