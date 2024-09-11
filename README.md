@@ -1,8 +1,16 @@
-<h1>AstroViews</h1>
-<h2>Web site para explorar la galería de imagenes de la APIs de la NASA</h2>
-<h3>La página cuenta con un buscador para realizar consulta por fecha y muestra la imagen del día</h3>
-<p>Se encuentra en actualmente en construcción, pero ya es funcional</p>
+<div class="container">
+  <h1>AstrosView</h1>
+</div>
 
-<img src="https://github.com/user-attachments/assets/5e0d7b2f-e346-43ac-b9b9-0a84ef685fd4">
+<div class="container">
+  <img src="https://github.com/user-attachments/assets/cbe469e6-a06e-4e70-8bfe-3cb8d9d6e50f">
+</div>
 
-<img src="https://github.com/user-attachments/assets/d68b7973-6ea4-43e6-8b9a-9ef870f22da1">
+<div class="container">
+  <h2>Web site para explorar la galería de imagenes de la APIs de la NASA</h2>
+  <h3>La página cuenta con un buscador para realizar consulta por fecha y muestra la imagen del día</h3>
+  <p>Se encuentra en actualmente en construcción, pero ya es funcional</p>
+</div>
+
+
+
