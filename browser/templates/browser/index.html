@@ -11,13 +11,14 @@
   <section>
     <div class="clearfix my-1" id="cards">
       <h4 class="col-md-12">{{query.title}}</h4>
-        <img src="{{query.url}}"  class="col-md-10 float-md-start mb-1 ms-md-3" alt="{{query.title}}">
-          <p class="col-md-6">
-            {{query.explanation}}
-          </p>
-          <p class="col-md-5" id="copyright">
-            Autor(es):&nbsp;{{query.copyright}}&nbsp;/&nbsp;{{query.date}}
-          </p>
+      <h6>{{query.date}}</h6>
+      <img src="{{query.url}}"  class="col-md-10 float-md-start mb-1 ms-md-3" alt="{{query.title}}">
+      <p class="col-md-6">
+        {{query.explanation}}
+      </p>
+      <p class="col-md-5" id="copyright">
+        Autor(s):&nbsp;{{query.copyright}}
+      </p>
     </div>
   </section>
 {% endblock %}

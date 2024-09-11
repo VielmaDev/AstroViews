@@ -7,16 +7,26 @@ body{
 }
 
 #logo{
-    width: 300px;
-    height: 130px;
-    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 2.2em;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(252, 252, 252);
     text-align: center;
+    padding-top: 4px;
+    padding-bottom: 6px;
+}
+
+a{
+    text-decoration: none;
 }
 
 #browser{
-    background: linear-gradient(rgba(92, 70, 99, 0.6), rgba(37, 1, 41, 0.6));
+    border: 1px solid #fff;
     border-radius: 10px;
-    width: 565px;
+    backdrop-filter: blur(3px);
+    width: 450px;
     height: 70px;
 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -26,17 +36,18 @@ body{
     align-content: center;
 
     position: relative;
-    left: -2%;
+    left: 0%;
     top: 8%;
-    transform: translate(4%, -6%);
+    transform: translate(0%, -6%);
 }
+
 
 .label{
     margin-right: 5px;
 }
 
 .date{
-    width: 215px;
+    width: 218px;
     height: 35px;
     padding-left: 10px;
 }
@@ -53,14 +64,27 @@ body{
     text-align: center;
     font-weight: bold;
     color:rgb(252, 252, 252);
-    padding-top: 30px;
+    padding-top: 18px;
     padding-bottom: 4px;
     position: relative;
     left: 46%;
-    top: 24%;
-    transform: translate(-45%, 18%);
+    top: 20%;
+    transform: translate(-45%, 14%);
 
 }
+
+.clearfix h6{
+    text-align: center;
+    font-weight: bold;
+    color:rgb(252, 252, 252);
+    padding-top: 14px;
+    padding-bottom: 2px;
+    position: relative;
+    left: 46%;
+    top: 16%;
+    transform: translate(-45%, 10%);
+}
+
 
 .clearfix img{
     width: 430px;
@@ -76,7 +100,7 @@ body{
     text-align: justify;
     padding-left: 10px;
     position: relative;
-    left: 47%;
+    left: 48%;
     top: 15%;
     transform: translate(-45%, 9%);
 }
@@ -97,9 +121,9 @@ footer{
     text-align: center;
     padding-bottom: 12px;
     position: relative;
-    top: 17%;
+    top: 11%;
     left: 0%;
-    transform: translate(3%, 18%);
+    transform: translate(1%, 12%);
 }
 
 #logonasa{

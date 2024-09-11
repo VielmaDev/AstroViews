@@ -22,9 +22,7 @@
 
 <body>
     <div class="container-fluid my-3" id="logo">
-        <figure>
-            <a href="{% url 'today' %}"><img src="{% static 'img/logo.jpg' %}" id="logo" alt="AstroViews"></a>
-        </figure>          
+        <h1 class="label" id="logo"><a href="{% url 'today' %}">AstrosView</a></h1>    
     </div>
 
     <nav>
@@ -32,7 +30,7 @@
             <form action="browser_set" method="get" autocomplete="off">
                 {% csrf_token %}
                 <div class="container-fluid my-3" id="browser">
-                    <label class="label">Seleccione una fecha:</label>
+                    <label class="label">Consultar:</label>
                     <input class="date" type="date" name="date" autofocus required>
                     <button type="submit" class="btn btn-outline-info">Buscar</button>   
                 </div>
@@ -52,6 +50,9 @@
           
 <!-- Footer -->
    <footer>
+        <div class="container my-3">
+            <p style="text-decoration: underline;">Fuente consultada</p>
+        </div>
         <div class="container my-3">
             <img src="{% static 'img/nasalogo.png' %}" id="logonasa" alt="Nasa">
         </div>
