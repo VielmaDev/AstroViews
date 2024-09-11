@@ -1,5 +1,8 @@
-<h3>Web site para realizar consultas de imagenes de la galería APOD de la Apis de la NASA</h3>
-<h4>La página principal muestra la imagen del día y cuenta con un buscador para realizar consulta de fechas anteriores</h4>
-<h6>Actualmente en construcción</h6><img src="https://github.com/user-attachments/assets/6a87d38c-f450-4140-8198-d09908db4af9">
+<h1>AstroViews</h1>
+<h2>Web site para explorar la galería de imagenes de la APIs de la NASA</h2>
+<h3>La página cuenta con un buscador para realizar consulta por fecha y muestra la imagen del día</h3>
+<p>Se encuentra en actualmente en construcción, pero ya es funcional</p>
 
-<img src="https://github.com/user-attachments/assets/02e35d1c-51ff-45c5-9d89-482366dd3234">
+<img src="https://github.com/user-attachments/assets/5e0d7b2f-e346-43ac-b9b9-0a84ef685fd4">
+
+<img src="https://github.com/user-attachments/assets/d68b7973-6ea4-43e6-8b9a-9ef870f22da1">
