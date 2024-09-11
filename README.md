@@ -23,14 +23,12 @@
 
 <footer>
 <div class="container">
-    <cite><mark>Actualmente se encuentra en su últimos detalles de diseño</mark></cite>
+    <cite><mark>..."Actualmente se encuentra en su última fase de diseño"...</mark></cite>
 </div>
 
 <div class="container">
-  <cite>Para arrancar el servidor desde VSC se debe ingresar a la a la terminal con el comando:</cite>
-    <li>python manage.py runserver</li>
-<cite>Luego ingresar a la dirección ip del servidor:</cite>
-    <li>http://127.0.0.1:8000</li>
+    <p>Para arrancar el servidor ingresar a la terminal de VSC e ingresar el comando: python manage.py runserver</p>
+    <p>Luego ingresar a la dirección ip del servidor: http://127.0.0.1:8000</p>
 </div>
 </footer>
 
