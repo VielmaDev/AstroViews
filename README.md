@@ -15,7 +15,7 @@
 </div>
 <div class="container">
     <p>La Web esta diseñada en lenguaje Python con el uso del framework Django</p>
-    <p>En su estructuración se implemento el uso de CSS3 y Bootstrap para hacerla Response</p>
+    <p>En su estructuración se implemento el uso de Css3 y Bootstrap para generar el efecto "Response"</p>
 </div>
 </section>
 
@@ -27,8 +27,9 @@
 
 <footer>
 <div class="container">
-    <p>Para arrancar el servidor ingresar a la terminal de VSC e ingresar el comando: python manage.py runserver</p>
-    <p>Luego ingresar a la dirección ip del servidor: http://127.0.0.1:8000</p>
+    <h5>Aspectos técnicos:</5>
+    <p>Para arrancar el servidor, se debe ingresar a la terminal de VSC y colocar el comando: <mark>python manage.py runserver</mark></p>
+    <p>Luego ingresar a la dirección Ip del servidor: <mark>http://127.0.0.1:8000</mark></p>
 </div>
 </footer>
 
