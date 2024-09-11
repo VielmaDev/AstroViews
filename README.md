@@ -28,8 +28,8 @@
 <footer>
 <div class="container">
     <h5>Aspectos técnicos:</5>
-    <p>Para arrancar el servidor, se debe ingresar a la terminal de VSC y colocar el comando: <mark>python manage.py runserver</mark></p>
-    <p>Luego ingresar a la dirección Ip del servidor: <mark>http://127.0.0.1:8000</mark></p>
+    <il>Para arrancar el servidor, se debe ingresar a la terminal de VSC y colocar el comando: <br><mark>python manage.py runserver</mark></il>
+    <p>Luego ingresar a la dirección Ip del servidor:<br><mark>http://127.0.0.1:8000</mark></p>
 </div>
 </footer>
 
