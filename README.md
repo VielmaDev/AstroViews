@@ -19,19 +19,13 @@
 </div>
 </section>
 
-<section>
-<div class="container">
-    <p><mark>..."Actualmente se encuentra en su última fase de diseño"...</mark></p>
-</div>
-</section>
-
 <footer>
-<div class="container">
+<div class="container my-2">
     <h5>Aspectos técnicos:</5>
-    <p>Para arrancar el servidor, ingresar a la terminal de VSC y colocar el comando:</p> 
+    <il>Para arrancar el servidor, ingresar a la terminal de VSC y colocar el comando:</il> 
     <p><mark>python manage.py runserver</mark></p>
     <p>Luego ingresar al navegador Web con la dirección Ip:</p>
-    <p><mark>http://127.0.0.1:8000</mark></p>
+    <il><mark>http://127.0.0.1:8000</mark></il>
 </div>
 </footer>
 
