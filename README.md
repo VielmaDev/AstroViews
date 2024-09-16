@@ -21,13 +21,13 @@
 
 <footer>
 <div class="container my-2">
-    <h5>Aspectos técnicos:</h5>
+    <h3>Aspectos técnicos:</h3>
 </div>
 
 <div class="container my-2">
-    <il>Para arrancar el servidor, ingresar a la terminal de VSC y colocar el comando:</il> 
+    <li>Para arrancar el servidor, ingresar a la terminal de VSC y colocar el comando:</li> 
         <p><mark>python manage.py runserver</mark></p>
-    <il>Luego ingresar al navegador Web con la dirección Ip:</il>
+    <li>Luego ingresar al navegador Web con la dirección Ip:</li>
         <p><mark>http://127.0.0.1:8000</mark></p>
 </div>
 </footer>
