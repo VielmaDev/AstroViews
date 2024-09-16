@@ -14,19 +14,43 @@ body{
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgb(252, 252, 252);
     text-align: center;
-    padding-top: 4px;
-    padding-bottom: 6px;
+    padding-top: 5px;
+    padding-bottom: 3px;
 }
 
 a{
     text-decoration: none;
 }
 
+a:link{
+    color:  rgb(252, 252, 252);
+}
+
+a:visited{
+    color: rgb(252, 252, 252);
+}
+
+a:hover{
+    color:rgb(7, 223, 238);
+}
+
+#slogan{
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.2em;
+    text-align: center;
+    color: rgb(252, 252, 252);
+    padding-top: 3px;
+    padding-bottom: 7px;
+
+}
+
 #browser{
     border: 1px solid #fff;
     border-radius: 10px;
     backdrop-filter: blur(3px);
-    width: 450px;
+    width: 419px;
     height: 70px;
 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -43,7 +67,8 @@ a{
 
 
 .label{
-    margin-right: 5px;
+    margin-right: 4px;
+    margin-left: 5px;
 }
 
 .date{
@@ -73,10 +98,11 @@ a{
 
 }
 
-.clearfix h6{
+.clearfix h5{
+    font-family:'Courier New', Courier, monospace;
     text-align: center;
     font-weight: bold;
-    color:rgb(252, 252, 252);
+    color:rgb(7, 223, 238);
     padding-top: 14px;
     padding-bottom: 2px;
     position: relative;
@@ -121,13 +147,13 @@ footer{
     text-align: center;
     padding-bottom: 12px;
     position: relative;
-    top: 11%;
     left: 0%;
-    transform: translate(1%, 12%);
+    top: 10%;
+    transform: translate(1%, 11%);
 }
 
 #logonasa{
-    width: 70px;
+    width: 93px;
     height: 70px;
 }
 

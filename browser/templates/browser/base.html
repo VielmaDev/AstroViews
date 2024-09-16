@@ -20,19 +20,26 @@
 
 <!--Body-->
 
+<!--Logo-->
+
 <body>
     <div class="container-fluid my-3" id="logo">
         <h1 class="label" id="logo"><a href="{% url 'today' %}">AstrosView</a></h1>    
     </div>
 
+    <div class="container-fluid my-1">
+        <h6 class="label" id="slogan">¡Explore NASA images!</h6>    
+    </div>
+
+    <!--browser-->
     <nav>
         <div class="search-bar">
             <form action="browser_set" method="get" autocomplete="off">
                 {% csrf_token %}
                 <div class="container-fluid my-3" id="browser">
-                    <label class="label">Consultar:</label>
+                    <label class="label">Date:</label>
                     <input class="date" type="date" name="date" autofocus required>
-                    <button type="submit" class="btn btn-outline-info">Buscar</button>   
+                    <button type="submit" class="btn btn-outline-info">Search</button>   
                 </div>
             </form>
         </div>
@@ -51,10 +58,10 @@
 <!-- Footer -->
    <footer>
         <div class="container my-3">
-            <p style="text-decoration: underline;">Fuente consultada</p>
+            <p>Credit courtesy</p>
         </div>
         <div class="container my-3">
-            <img src="{% static 'img/nasalogo.png' %}" id="logonasa" alt="Nasa">
+            <a href="https://www.nasa.gov/"><img src="{% static 'img/nasalogo.png' %}" id="logonasa" alt="Nasa"></a>
         </div>
 
         <div class="container my-2">

@@ -9,10 +9,14 @@ from datetime import date
 
 def today(request):
 
+    #fecha actual tomada del servidor
     now=date.today()
+
+     #API APOD que permite consultar la imagen del día publicada por la NASA
     URL_API="https://api.nasa.gov/planetary/apod?"
     
     try:
+        #parámetros de busqueda
         params= {
             "api_key":"c2OYvrWfzSWPDRAburcCkTmIc0iKnAZk88xLwaVq",
             "date": now,
@@ -25,22 +29,25 @@ def today(request):
             query=response.json()
 
         else:
-            # En caso de un código de respuesta no exitoso
-            query=['No se han publicado imagenes el día de hoy']
-    
-    except requests.RequestException as e:
-        # Manejar errores de solicitud
-        query= ['Error en solicitud :{e}']
+             #si no se encuentra resultados
+            query=[]
 
+    #excepción de error al cargar el sitio web
+    except requests.RequestException as e:
+        query= []
+
+    #retorno de respuesta a el sitio web
     return render(request,'browser/index.html', {'query': query})
 
 
 #---Buscador de imagen---
 def browser_set(request):
 
+    #API APOD que permite consultar la imagen del día publicada por la NASA
     URL_API="https://api.nasa.gov/planetary/apod?"
 
     try:
+        #parámetros de busqueda
         params= {
             "api_key":"c2OYvrWfzSWPDRAburcCkTmIc0iKnAZk88xLwaVq",
             "date":request.GET["date"],
@@ -52,12 +59,16 @@ def browser_set(request):
         if response.status_code==200:
             # se utiliza el método json() para extraer los datos en formato JSON de la respuesta 
             query=response.json()
-        else:
-            query=['No se encontraron resultados asociados a la consulta']
-    
-    except requests.RequestException as e:
-        query= ['Error en solicitud :{e}']
 
+        else:
+            #si no se encuentra resultados
+            query=[]
+
+    #excepción de error al cargar el sitio web
+    except requests.RequestException as e:
+        query= ['{e}']
+
+    #retorno de respuesta a el sitio web
     return render(request,'browser/index.html', {'query': query})
 
 
