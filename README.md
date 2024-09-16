@@ -7,7 +7,7 @@
 
 <section>
 <div class="container">
-    <img src="https://github.com/user-attachments/assets/7f4dd8af-7dc2-423f-8ffb-980e78b931ea">
+    <img src="https://github.com/user-attachments/assets/379b0da9-a09e-42e6-92bb-ef3c8b0925a1">
 </div>   
 <div class="container">
     <p>La Web permite explorar la galería de imagenes que ofrece la API (APOD) de la NASA</p>
@@ -28,8 +28,10 @@
 <footer>
 <div class="container">
     <h5>Aspectos técnicos:</5>
-    <il>Para arrancar el servidor, se debe ingresar a la terminal de VSC y colocar el comando: <br><mark>python manage.py runserver</mark></il>
-    <p>Luego ingresar a la dirección Ip del servidor:<br><mark>http://127.0.0.1:8000</mark></p>
+    <p>Para arrancar el servidor, ingresar a la terminal de VSC y colocar el comando:</p> 
+    <p><mark>python manage.py runserver</mark></p>
+    <p>Luego ingresar al navegador Web con la dirección Ip:</p>
+    <p><mark>http://127.0.0.1:8000</mark></p>
 </div>
 </footer>
 
